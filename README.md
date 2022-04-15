@@ -4,8 +4,15 @@
 ## Linear Regression to Predict MPG
 
 -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+(p-values are Pr(>|t|) -- vehicle length, groud_clearance (and intercept)
+
 -Is the slope of the linear model considered to be zero? Why or why not?
+??It is considered to be zero (p < 0.01)
+
 -Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+moderate to strong r correlation (0.5 < r < 0.7 = moderate; r > 0.7 = strong)
+multiple r-sq = 0.7149 -> strong
+Adjusted r-sq = 0.6825 -> moderate
 
 ## Summary Statistics on Suspension Coils
 -The design specifications for the MechaCar suspension coils dictate that the variance 
