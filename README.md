@@ -1,10 +1,12 @@
 # MechaCar_Statistical_Analysis
 
 
-## Linear Regression to Predict MPG
+## Linear Regression to Predict MPG </br>
+![linear_regression_summary](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression_summary.png) </br>
+**<sub>Figure 1</sup></sub>** </br>
 
--Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-(p-values are Pr(>|t|) -- vehicle length, groud_clearance (and intercept)
+
+To determine which variables were able to provide a non-random amount of variance, the P-Value was assessed for each variable. A variable with a P-Value, denoated as "Pr(>|t|)" in figure 1, less than 0.05 is deemed to provide a non-random amount of variance. The variables with a P-Value of less than 0.05 are vehicle length and groud clearance.
 
 -Is the slope of the linear model considered to be zero? Why or why not?
 ??It is considered to be zero (p < 0.01)
