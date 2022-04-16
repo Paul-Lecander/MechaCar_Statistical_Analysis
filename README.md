@@ -17,14 +17,31 @@ Determining the correlation of the linear regression was performed, see Figure 1
 
 
 ## Summary Statistics on Suspension Coils
--The design specifications for the MechaCar suspension coils dictate that the variance 
-of the suspension coils must not exceed 100 pounds per square inch. Does the current
-manufacturing data meet this design specification for all manufacturing 
-lots in total and each lot individually? Why or why not?
+
+In this section, different lots of suspension coils were looked at to determine if they fall into specification (variance of the suspension coil must not exceed 100 lbs/sq inch) for use in the MechaCar. </br>
+
+![lot_summary](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)</br>
+**<sub>Figure 3</sup></sub>** </br>
+
+Since the specification of the variance for the suspension coil is 100 or less, this means lot 3 does not pass specification. Lots 1 and 2 have low variance and pass the specification.</br>
+
 
 ## T-Tests on Suspension Coils
--briefly summarize your interpretation and findings for the t-test results. 
-Include screenshots of the t-test to support your summary.
+
+A t-test was performed for the suspension coil lots as a whole and for each lot individually. The t-test was performed to determine if the results obtained were obtained by chance. First the t-test for suspension coils of all lots shows the p-value = 0.06028 which is greater than the significance threshold of p = 0.05. This means that the results are not statistically different.</br>
+
+![all_lots_ttest](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/all_lots_ttest.png)<br/>
+**<sub>Figure 4</sup></sub>** </br>
+
+The first lot of suspension coils yielded a p-value of 1 (figure 5) and the second lot had a p-value of 0.6072 (figure 6) which indicates the two lots are not statistically different from the mean. </br>
+
+![lot1_ttest](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/lot1_ttest.png)</br>
+**<sub>Figure 5</sup></sub>** </br>
+![lot2_ttest](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/lot2_ttest.png)</br>
+**<sub>Figure 6</sup></sub>** </br>
+
+
+
 
 ## Study Design: MechaCar vs Competition
 
