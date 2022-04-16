@@ -10,11 +10,11 @@ To determine which variables were able to provide a non-random amount of varianc
 
 -Is the slope of the linear model considered to be zero? Why or why not?
 ??It is considered to be zero (p < 0.01)
+Determining the correlation of the linear regression was performed, see Figure 1, and gave a multiple R-squared value of 0.71 which is a strong and positive correlation. The slope of the linear model is considered to be non-zero because of the coefficients, listed below in figure 2, do not equal 0. </br>
 
--Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-moderate to strong r correlation (0.5 < r < 0.7 = moderate; r > 0.7 = strong)
-multiple r-sq = 0.7149 -> strong
-Adjusted r-sq = 0.6825 -> moderate
+![linear_regression](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression.png)</br>
+**<sub>Figure 2</sup></sub>** </br>
+
 
 ## Summary Statistics on Suspension Coils
 -The design specifications for the MechaCar suspension coils dictate that the variance 
