@@ -1,5 +1,8 @@
 # MechaCar_Statistical_Analysis
 
+## Overview </br>
+
+In this challenge, the objective was to assess production data from AutosRUs because the "MechaCar" had been suffering from production issues. Using R, multiple analyses were performed such as linear regressions, t-tests, and statistical summaries. All of the tests were performed to investigate the issues going into the MechaCar.
 
 ## Linear Regression to Predict MPG </br>
 ![linear_regression_summary](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression_summary.png) </br>
@@ -40,16 +43,17 @@ The first lot of suspension coils yielded a p-value of 1 (figure 5) and the seco
 ![lot2_ttest](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/lot2_ttest.png)</br>
 **<sub>Figure 6</sup></sub>** </br>
 
+The third lot of suspension coils have a p-value of 0.04168 which indicates the mean is statistically different from the mean.</br>
 
+![lot3_ttest](https://github.com/Paul-Lecander/MechaCar_Statistical_Analysis/blob/main/Images/lot3_ttest.png)</br>
+**<sub>Figure 7</sup></sub>** </br>
 
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
-In your study design, think critically about what metrics would be of interest to a consumer: 
-for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
--What metric or metrics are you going to test?
--What is the null hypothesis or alternative hypothesis?
--What statistical test would you use to test the hypothesis? And why?
--What data is needed to run the statistical test?
+If I were to test performance between MechaCar and competitors in the future, I would test it on several metrics. The metrics I would compare between MechaCar and the competition would be: </br>
+  - CO2 emissions 
+  - Torque
+  - Breaking distance
+</br>
+The null hypothesis for each of the performance indicators would be no statistical difference between MechaCar and the competitors and the alternative hypothesis would be that there is a statistical difference. An ANOVA statistical test would be conducted since there would be multiple samples (MechaCar and its competitors). 
